@@ -3,8 +3,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>AthletAI – Coming Soon</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AthletAI – Coming Soon</title>
     <style>
         body {
             margin: 0;
@@ -14,63 +14,60 @@
         }
         header {
             text-align: center;
-            padding: 60px 20px 30px;
+            padding: 60px 20px;
         }
-        header h1 {
-            font-size: 2.5em;
+        h1 {
+            font-size: 48px;
             margin-bottom: 10px;
         }
-        header p {
-            font-size: 1.1em;
-            margin-bottom: 20px;
+        h2 {
+            font-size: 32px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+            align-items: center;
+            justify-content: center;
+        }
+        .section img {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .text-block {
+            max-width: 500px;
+            padding: 20px;
         }
         .cta-buttons {
-            text-align: center;
-            margin-bottom: 40px;
+            margin-top: 30px;
         }
         .cta-buttons a {
-            display: block;
-            margin: 10px auto;
-            padding: 12px 20px;
-            background-color: white;
-            color: #0A1E3F;
             text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            max-width: 90%;
-        }
-        section {
-            background-color: white;
-            color: #0A1E3F;
-            padding: 40px 20px;
-            text-align: center;
-        }
-        section h2 {
-            font-size: 1.8em;
-            margin-bottom: 15px;
-        }
-        section p {
-            max-width: 800px;
-            margin: 0 auto 15px;
-            font-size: 1em;
-        }
-        .form-section {
-            background-color: #f4f4f4;
-            color: #0A1E3F;
-            padding: 40px 20px;
-            text-align: center;
+            color: white;
+            background-color: #1C3B70;
+            padding: 12px 24px;
+            margin: 10px;
+            border-radius: 4px;
+            display: inline-block;
         }
         iframe {
             width: 100%;
-            max-width: 600px;
-            height: 700px;
+            height: 600px;
             border: none;
+            margin-top: 40px;
         }
         footer {
             text-align: center;
-            font-size: 0.9em;
-            padding: 20px;
-            background-color: #07152F;
+            padding: 30px 20px;
+            font-size: 16px;
+            color: #CCCCCC;
         }
     </style>
 </head>
@@ -78,35 +75,45 @@
 
 <header>
     <h1>AthletAI</h1>
-    <p>Wearables + AI. Discover the Next Generation.</p>
+    <h2>AI-powered platform with smart sensors that helps young athletes get discovered and gives scouts objective, long-term performance data.</h2>
+    <div class="cta-buttons">
+        <a href="#waitlist">I'm a Player</a>
+        <a href="#waitlist">I'm a Scout / Club</a>
+    </div>
 </header>
 
-<div class="cta-buttons">
-    <a href="#form">I'm a Player — I want to be discovered with AthletAI</a>
-    <a href="#form">I'm a Scout / Club — I want to find hidden gems with AthletAI</a>
-</div>
-
-<section>
-    <h2>How It Works</h2>
-    <p>Young athletes wear our smart sensors during real training and games.</p>
-    <p>Data is automatically collected and processed with our AI engine.</p>
-    <p>Scouts and clubs access performance analytics and discover emerging talent anywhere in the world.</p>
+<section class="section" style="background-color: #102B4F;">
+    <img src="Player2.jpg" alt="Athlete Running">
+    <div class="text-block">
+        <h2>How It Works</h2>
+        <p>Young athletes wear our smart sensors during real training and games. Performance data is collected continuously over time — not just in isolated moments.</p>
+        <p>Our AI engine processes this historical and real-time data to detect patterns, progress, and potential.</p>
+        <p>Scouts and clubs get long-term analytics, uncovering emerging talent with objective insights from real-world performance.</p>
+    </div>
+    <img src="Player3.jpg" alt="Athlete with Phone">
 </section>
 
-<section>
-    <h2>Why It Matters</h2>
-    <p>Millions of young athletes remain invisible due to outdated, subjective and unscalable scouting systems.</p>
-    <p>AthletAI brings transparency, data and opportunity to every corner of the world — starting with football.</p>
+<section class="section" style="background-color: #143763;">
+    <img src="Coach1.jpg" alt="Scout Analyzing Data">
+    <div class="text-block">
+        <h2>Why It Matters</h2>
+        <p>Millions of young athletes remain invisible due to outdated, subjective, and unscalable scouting systems — often based on single events or personal connections.</p>
+        <p>AthletAI brings transparency and opportunity by tracking real performance over time, using wearable sensors and AI to generate long-term, objective data.</p>
+        <p>This levels the playing field — starting with football.</p>
+    </div>
+    <img src="Coach2.jpg" alt="Scout Profile View">
 </section>
 
-<section class="form-section" id="form">
-    <h2>Join Our Waitlist</h2>
-    <p>Let us know who you are — we’ll notify you once AthletAI is ready to launch.</p>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSersGJdAGxb1gOh6BK0u8aRHjSE5Ukor7UWEDrbJBvFqUiUow/viewform?embedded=true">Loading…</iframe>
+<section id="waitlist" class="section" style="background-color: #0A1E3F;">
+    <div class="text-block">
+        <h2>Join Our Waitlist</h2>
+        <p>Be the first to get access to AthletAI. Whether you're a young athlete or a talent scout — join the future of discovery.</p>
+    </div>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSersGJdAGxb1gOh6BK0u8aRHjSE5Ukor7UWEDrbJBvFqUiUow/viewform?embedded=true" loading="lazy">Loading…</iframe>
 </section>
 
 <footer>
-    Contact us: <a href="mailto:info@AthletAI.org" style="color: white;">info@AthletAI.org</a> • www.AthletAI.org
+    info@AthletAI.org • www.AthletAI.org
 </footer>
 
 </body>
