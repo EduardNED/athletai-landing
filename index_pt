@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<!-- Language Switcher (Top Right Corner) -->
+<div style="position: absolute; top: 20px; right: 20px; font-size: 40px;">
+  <a href="index.html" title="English" style="margin-right: 10px;">
+    🇬🇧
+  </a>
+  <a href="index_es.html" title="Español" style="margin-right: 10px;">
+    🇪🇸
+  </a>
+  <a href="index_pt.html" title="Português">
+    🇧🇷
+  </a>
+</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AthletAI – Coming Soon</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0A1E3F;
+            color: white;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+        }
+        .coming-soon {
+            font-size: 16px;
+            color: #AABDD5;
+            margin-bottom: 80px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        h1 {
+            font-size: 72px;
+            margin: 20px 0;
+        }
+        .value-prop {
+            font-size: 20px;
+            color: #F1FFFF;
+            margin: 20px auto 40px;
+            max-width: 900px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+            align-items: center;
+            justify-content: center;
+        }
+        .section img {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .text-block {
+            max-width: 500px;
+            padding: 20px;
+        }
+        .cta-buttons {
+            margin-top: 30px;
+        }
+        .cta-buttons a {
+            text-decoration: none;
+            color: #0A1E3F;
+            background-color: white;
+            padding: 12px 24px;
+            margin: 10px;
+            border-radius: 4px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            margin-top: 40px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 16px;
+            color: #CCCCCC;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="coming-soon">Pilot Program Launching Soon</div>
+    <h1>AthletAI</h1>
+    <div class="value-prop">
+        AI-powered platform with smart sensors that helps young athletes get discovered and gives scouts objective, long-term performance data.
+    </div>
+    <div class="cta-buttons">
+        <a href="#waitlist">I'm a Player</a>
+        <a href="#waitlist">I'm a Scout / Club</a>
+    </div>
+</header>
+
+<section class="section" style="background-color: #102B4F;">
+    <img src="Player2.jpg" alt="Athlete Running">
+    <div class="text-block">
+        <h2>How It Works</h2>
+        <p>Young athletes wear our smart sensors during real training and games. Performance data is collected continuously over time — not just in isolated moments.</p>
+        <p>Our AI engine processes this historical and real-time data to detect patterns, progress, and potential.</p>
+        <p>Scouts and clubs get long-term analytics, uncovering emerging talent with objective insights from real-world performance.</p>
+    </div>
+    <img src="Player3.jpg" alt="Athlete with Phone">
+</section>
+
+<section class="section" style="background-color: #143763;">
+    <img src="Coach1.jpg" alt="Scout Analyzing Data">
+    <div class="text-block">
+        <h2>Why It Matters</h2>
+        <p>Millions of young athletes remain invisible due to outdated, subjective, and unscalable scouting systems — often based on single events or personal connections.</p>
+        <p>AthletAI brings transparency and opportunity by tracking real performance over time, using wearable sensors and AI to generate long-term, objective data.</p>
+        <p>This levels the playing field — starting with football.</p>
+    </div>
+    <img src="Coach2.jpg" alt="Scout Profile View">
+</section>
+
+<section id="waitlist" class="section" style="background-color: #0A1E3F;">
+    <div class="text-block">
+        <h2>Join Our Waitlist</h2>
+        <p>Be the first to get access to AthletAI. Whether you're a young athlete or a talent scout — join the future of discovery.</p>
+    </div>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSersGJdAGxb1gOh6BK0u8aRHjSE5Ukor7UWEDrbJBvFqUiUow/viewform?embedded=true" loading="lazy">Loading…</iframe>
+</section>
+
+<footer>
+    info@AthletAI.org • www.AthletAI.org
+</footer>
+
+</body>
+</html>
